@@ -42,7 +42,7 @@ data = PackedVector3Array(1, 0, 1, -1, 0, 1, 1, 0, -1, -1, 0, 1, -1, 0, -1, 1, 0
 [node name="Main" type="Node3D"]
 
 [node name="MountainSkybox" parent="." instance=ExtResource("1_alciq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 120, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 150, 0)
 
 [node name="DayNightCycle" parent="." instance=ExtResource("2_1pexy")]
 day_length = 600.0
