@@ -1,0 +1,1866 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://cah6makn3wuuh"
+path="res://.godot/imported/nature.glb-c880d8fcac3bea2c22d9057fcbd4c247.scn"
+
+[deps]
+
+source_file="res://Assets/nature.glb"
+dest_files=["res://.godot/imported/nature.glb-c880d8fcac3bea2c22d9057fcbd4c247.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+_subresources={
+"meshes": {
+"nature_MountainSkybox": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_MountainSkybox.res"
+},
+"nature_River_Plane_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_River_Plane_01.res"
+},
+"nature_River_Plane_Dip_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_River_Plane_Dip_01.res"
+},
+"nature_River_Plane_Dip_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_River_Plane_Dip_02.res"
+},
+"nature_River_Plane_WaterFall_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_River_Plane_WaterFall_01.res"
+},
+"nature_SM_Plant_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_01.res"
+},
+"nature_SM_Plant_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_02.res"
+},
+"nature_SM_Plant_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_03.res"
+},
+"nature_SM_Plant_04": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_04.res"
+},
+"nature_SM_Plant_05": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_05.res"
+},
+"nature_SM_Plant_06": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_06.res"
+},
+"nature_SM_Plant_07": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_07.res"
+},
+"nature_SM_Plant_Bush_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Bush_01.res"
+},
+"nature_SM_Plant_Bush_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Bush_02.res"
+},
+"nature_SM_Plant_Bush_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Bush_03.res"
+},
+"nature_SM_Plant_Bush_Leaves_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Bush_Leaves_01.res"
+},
+"nature_SM_Plant_Bush_Leaves_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Bush_Leaves_02.res"
+},
+"nature_SM_Plant_Bush_Leaves_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Bush_Leaves_03.res"
+},
+"nature_SM_Plant_Fern_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Fern_01.res"
+},
+"nature_SM_Plant_Fern_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Fern_02.res"
+},
+"nature_SM_Plant_Fern_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Fern_03.res"
+},
+"nature_SM_Plant_Fern_Leaves_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Fern_Leaves_01.res"
+},
+"nature_SM_Plant_Fern_Leaves_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Fern_Leaves_02.res"
+},
+"nature_SM_Plant_FlowerPatch_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_FlowerPatch_01.res"
+},
+"nature_SM_Plant_Flowers_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Flowers_01.res"
+},
+"nature_SM_Plant_Grass_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Grass_01.res"
+},
+"nature_SM_Plant_Grass_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Grass_02.res"
+},
+"nature_SM_Plant_Grass_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Grass_03.res"
+},
+"nature_SM_Plant_Grass_04": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Grass_04.res"
+},
+"nature_SM_Plant_Grass_05": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Grass_05.res"
+},
+"nature_SM_Plant_Hedge_Bush_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Hedge_Bush_01.res"
+},
+"nature_SM_Plant_Hedge_Bush_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Hedge_Bush_02.res"
+},
+"nature_SM_Plant_Lillypad_Large_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Lillypad_Large_01.res"
+},
+"nature_SM_Plant_Lillypad_Large_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Lillypad_Large_02.res"
+},
+"nature_SM_Plant_Lillypad_Large_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Lillypad_Large_03.res"
+},
+"nature_SM_Plant_Lillypad_Small_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Lillypad_Small_01.res"
+},
+"nature_SM_Plant_Mushrooms_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Mushrooms_01.res"
+},
+"nature_SM_Plant_Mushrooms_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Mushrooms_02.res"
+},
+"nature_SM_Plant_Mushrooms_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Mushrooms_03.res"
+},
+"nature_SM_Plant_Mushrooms_04": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Mushrooms_04.res"
+},
+"nature_SM_Plant_Mushrooms_05": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Mushrooms_05.res"
+},
+"nature_SM_Plant_Mushrooms_06": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Mushrooms_06.res"
+},
+"nature_SM_Plant_PalmBush_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_PalmBush_01.res"
+},
+"nature_SM_Plant_PurpleFlower_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_PurpleFlower_01.res"
+},
+"nature_SM_Plant_Reeds_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Reeds_01.res"
+},
+"nature_SM_Plant_Reeds_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Reeds_02.res"
+},
+"nature_SM_Plant_Undergrowth_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Plant_Undergrowth_01.res"
+},
+"nature_SM_Prop_Arrow_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_Arrow_01.res"
+},
+"nature_SM_Prop_Brick_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_Brick_01.res"
+},
+"nature_SM_Prop_Brick_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_Brick_02.res"
+},
+"nature_SM_Prop_Bridge_Curved_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_Bridge_Curved_01.res"
+},
+"nature_SM_Prop_CampFire_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_CampFire_01.res"
+},
+"nature_SM_Prop_Chest_Wood_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_Chest_Wood_01.res"
+},
+"nature_SM_Prop_Chest_Wood_Lid": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_Chest_Wood_Lid.res"
+},
+"nature_SM_Prop_Cloud_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_Cloud_01.res"
+},
+"nature_SM_Prop_Cloud_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_Cloud_02.res"
+},
+"nature_SM_Prop_Cloud_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_Cloud_03.res"
+},
+"nature_SM_Prop_Fence_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_Fence_01.res"
+},
+"nature_SM_Prop_Fence_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_Fence_02.res"
+},
+"nature_SM_Prop_Grave_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_Grave_03.res"
+},
+"nature_SM_Prop_Pillar_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_Pillar_01.res"
+},
+"nature_SM_Prop_Pillar_Arch_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_Pillar_Arch_01.res"
+},
+"nature_SM_Prop_Pillar_Arch_Broken_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_Pillar_Arch_Broken_01.res"
+},
+"nature_SM_Prop_Pillar_Arch_Broken_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_Pillar_Arch_Broken_02.res"
+},
+"nature_SM_Prop_Pillar_Arch_Broken_Moss_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_Pillar_Arch_Broken_Moss_01.res"
+},
+"nature_SM_Prop_Pillar_Arch_Broken_Moss_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_Pillar_Arch_Broken_Moss_02.res"
+},
+"nature_SM_Prop_Pillar_Arch_Moss_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_Pillar_Arch_Moss_01.res"
+},
+"nature_SM_Prop_Pillar_Broken_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_Pillar_Broken_01.res"
+},
+"nature_SM_Prop_Pillar_Broken_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_Pillar_Broken_02.res"
+},
+"nature_SM_Prop_Pillar_Broken_Moss_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_Pillar_Broken_Moss_01.res"
+},
+"nature_SM_Prop_Pillar_Broken_Moss_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_Pillar_Broken_Moss_02.res"
+},
+"nature_SM_Prop_Pillar_Moss_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_Pillar_Moss_01.res"
+},
+"nature_SM_Prop_RoadSign_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_RoadSign_01.res"
+},
+"nature_SM_Prop_Skeleton_Ground_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_Skeleton_Ground_01.res"
+},
+"nature_SM_Prop_Skull_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_Skull_01.res"
+},
+"nature_SM_Prop_StoneWall_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_StoneWall_01.res"
+},
+"nature_SM_Prop_StoneWall_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_StoneWall_02.res"
+},
+"nature_SM_Prop_StoneWall_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_StoneWall_03.res"
+},
+"nature_SM_Prop_TorchStick_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Prop_TorchStick_01.res"
+},
+"nature_SM_Rock_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_01.res"
+},
+"nature_SM_Rock_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_02.res"
+},
+"nature_SM_Rock_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_03.res"
+},
+"nature_SM_Rock_04": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_04.res"
+},
+"nature_SM_Rock_Boulder_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_Boulder_01.res"
+},
+"nature_SM_Rock_CaveEntrance_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_CaveEntrance_01.res"
+},
+"nature_SM_Rock_CaveEntrance_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_CaveEntrance_02.res"
+},
+"nature_SM_Rock_CaveInterior_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_CaveInterior_01.res"
+},
+"nature_SM_Rock_CaveInterior_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_CaveInterior_02.res"
+},
+"nature_SM_Rock_Cluster_Large_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_Cluster_Large_01.res"
+},
+"nature_SM_Rock_Cluster_Large_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_Cluster_Large_02.res"
+},
+"nature_SM_Rock_Cluster_Large_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_Cluster_Large_03.res"
+},
+"nature_SM_Rock_Cluster_Large_04": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_Cluster_Large_04.res"
+},
+"nature_SM_Rock_Cluster_Large_05": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_Cluster_Large_05.res"
+},
+"nature_SM_Rock_Cluster_Large_06": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_Cluster_Large_06.res"
+},
+"nature_SM_Rock_Pile_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_Pile_01.res"
+},
+"nature_SM_Rock_Pile_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_Pile_02.res"
+},
+"nature_SM_Rock_Pile_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_Pile_03.res"
+},
+"nature_SM_Rock_Pile_04": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_Pile_04.res"
+},
+"nature_SM_Rock_Pile_05": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_Pile_05.res"
+},
+"nature_SM_Rock_Pile_Curved_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_Pile_Curved_01.res"
+},
+"nature_SM_Rock_Pile_Curved_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_Pile_Curved_02.res"
+},
+"nature_SM_Rock_Rounded_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_Rounded_01.res"
+},
+"nature_SM_Rock_Small_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_Small_01.res"
+},
+"nature_SM_Rock_Small_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_Small_02.res"
+},
+"nature_SM_Rock_Tile_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_Tile_01.res"
+},
+"nature_SM_Rock_Tile_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_Tile_02.res"
+},
+"nature_SM_Rock_Tile_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_Tile_03.res"
+},
+"nature_SM_Rock_Wall_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_Wall_01.res"
+},
+"nature_SM_Rock_Wall_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Rock_Wall_02.res"
+},
+"nature_SM_Swamp_Root_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Swamp_Root_01.res"
+},
+"nature_SM_Swamp_Root_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Swamp_Root_02.res"
+},
+"nature_SM_Terrain_DustPile_Long_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Terrain_DustPile_Long_01.res"
+},
+"nature_SM_Terrain_DustPile_Small_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Terrain_DustPile_Small_01.res"
+},
+"nature_SM_Terrain_DustPile_Small_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Terrain_DustPile_Small_02.res"
+},
+"nature_SM_Terrain_GrassEdge_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Terrain_GrassEdge_01.res"
+},
+"nature_SM_Terrain_GrassEdge_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Terrain_GrassEdge_02.res"
+},
+"nature_SM_Terrain_GrassEdge_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Terrain_GrassEdge_03.res"
+},
+"nature_SM_Terrain_GrassEdge_04": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Terrain_GrassEdge_04.res"
+},
+"nature_SM_Terrain_GrassEdge_Roots_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Terrain_GrassEdge_Roots_01.res"
+},
+"nature_SM_Terrain_GrassEdge_Roots_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Terrain_GrassEdge_Roots_02.res"
+},
+"nature_SM_Terrain_Ground_Mound_Large_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Terrain_Ground_Mound_Large_01.res"
+},
+"nature_SM_Terrain_Ground_Mound_Large_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Terrain_Ground_Mound_Large_02.res"
+},
+"nature_SM_Terrain_Ground_Mound_Small_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Terrain_Ground_Mound_Small_01.res"
+},
+"nature_SM_Terrain_Ground_Mound_Small_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Terrain_Ground_Mound_Small_02.res"
+},
+"nature_SM_Terrain_Ice_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Terrain_Ice_01.res"
+},
+"nature_SM_Terrain_Mountain_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Terrain_Mountain_01.res"
+},
+"nature_SM_Terrain_Mountain_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Terrain_Mountain_02.res"
+},
+"nature_SM_Terrain_Mountain_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Terrain_Mountain_03.res"
+},
+"nature_SM_Terrain_RiverSide_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Terrain_RiverSide_01.res"
+},
+"nature_SM_Terrain_RiverSide_Corner_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Terrain_RiverSide_Corner_01.res"
+},
+"nature_SM_Terrain_RiverSide_Corner_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Terrain_RiverSide_Corner_02.res"
+},
+"nature_SM_Terrain_Rubble_Pebbles_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Terrain_Rubble_Pebbles_01.res"
+},
+"nature_SM_Terrain_Rubble_Pebbles_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Terrain_Rubble_Pebbles_02.res"
+},
+"nature_SM_Terrain_Rubble_Pebbles_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Terrain_Rubble_Pebbles_03.res"
+},
+"nature_SM_Terrain_Swamp_Growth_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Terrain_Swamp_Growth_01.res"
+},
+"nature_SM_Terrain_Swamp_Growth_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Terrain_Swamp_Growth_02.res"
+},
+"nature_SM_Terrain_Swamp_Growth_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Terrain_Swamp_Growth_03.res"
+},
+"nature_SM_Tree_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_01.res"
+},
+"nature_SM_Tree_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_02.res"
+},
+"nature_SM_Tree_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_03.res"
+},
+"nature_SM_Tree_04": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_04.res"
+},
+"nature_SM_Tree_Birch_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Birch_01.res"
+},
+"nature_SM_Tree_Birch_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Birch_02.res"
+},
+"nature_SM_Tree_Birch_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Birch_03.res"
+},
+"nature_SM_Tree_Birch_04": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Birch_04.res"
+},
+"nature_SM_Tree_Birch_Dead_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Birch_Dead_01.res"
+},
+"nature_SM_Tree_Birch_Small_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Birch_Small_01.res"
+},
+"nature_SM_Tree_Branch_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Branch_01.res"
+},
+"nature_SM_Tree_Dead_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Dead_01.res"
+},
+"nature_SM_Tree_Dead_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Dead_02.res"
+},
+"nature_SM_Tree_Dead_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Dead_03.res"
+},
+"nature_SM_Tree_Generic_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Generic_01.res"
+},
+"nature_SM_Tree_Generic_Dead_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Generic_Dead_01.res"
+},
+"nature_SM_Tree_Generic_Giant_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Generic_Giant_01.res"
+},
+"nature_SM_Tree_Large_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Large_01.res"
+},
+"nature_SM_Tree_Log_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Log_01.res"
+},
+"nature_SM_Tree_Log_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Log_02.res"
+},
+"nature_SM_Tree_Pine_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Pine_01.res"
+},
+"nature_SM_Tree_Pine_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Pine_02.res"
+},
+"nature_SM_Tree_Pine_Base_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Pine_Base_01.res"
+},
+"nature_SM_Tree_Pine_Dead_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Pine_Dead_01.res"
+},
+"nature_SM_Tree_Pine_Large_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Pine_Large_01.res"
+},
+"nature_SM_Tree_Pine_Large_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Pine_Large_02.res"
+},
+"nature_SM_Tree_Pine_Small_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Pine_Small_01.res"
+},
+"nature_SM_Tree_Pine_Small_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Pine_Small_02.res"
+},
+"nature_SM_Tree_PolyPine_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_PolyPine_01.res"
+},
+"nature_SM_Tree_PolyPine_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_PolyPine_02.res"
+},
+"nature_SM_Tree_PolyPine_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_PolyPine_03.res"
+},
+"nature_SM_Tree_PolyPine_Sparse_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_PolyPine_Sparse_01.res"
+},
+"nature_SM_Tree_PolyPine_Sparse_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_PolyPine_Sparse_02.res"
+},
+"nature_SM_Tree_PolyPine_Sparse_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_PolyPine_Sparse_03.res"
+},
+"nature_SM_Tree_Round_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Round_01.res"
+},
+"nature_SM_Tree_Round_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Round_02.res"
+},
+"nature_SM_Tree_Round_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Round_03.res"
+},
+"nature_SM_Tree_Round_04": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Round_04.res"
+},
+"nature_SM_Tree_Round_05": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Round_05.res"
+},
+"nature_SM_Tree_Stump_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Stump_01.res"
+},
+"nature_SM_Tree_Stump_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Stump_02.res"
+},
+"nature_SM_Tree_Stump_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Stump_03.res"
+},
+"nature_SM_Tree_Stump_04": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Stump_04.res"
+},
+"nature_SM_Tree_Swamp_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Swamp_01.res"
+},
+"nature_SM_Tree_Swamp_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Swamp_02.res"
+},
+"nature_SM_Tree_Swamp_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Swamp_03.res"
+},
+"nature_SM_Tree_Swamp_04": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Swamp_04.res"
+},
+"nature_SM_Tree_Swamp_Branch_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Swamp_Branch_01.res"
+},
+"nature_SM_Tree_Swamp_Branch_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Swamp_Branch_02.res"
+},
+"nature_SM_Tree_Swamp_Root_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Swamp_Root_01.res"
+},
+"nature_SM_Tree_Swamp_Root_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Swamp_Root_02.res"
+},
+"nature_SM_Tree_Swamp_Stump_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Swamp_Stump_01.res"
+},
+"nature_SM_Tree_Swamp_Stump_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Swamp_Stump_02.res"
+},
+"nature_SM_Tree_TallRound_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_TallRound_01.res"
+},
+"nature_SM_Tree_Twig_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Twig_01.res"
+},
+"nature_SM_Tree_Twig_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Twig_02.res"
+},
+"nature_SM_Tree_Twig_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Twig_03.res"
+},
+"nature_SM_Tree_Twig_04": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Twig_04.res"
+},
+"nature_SM_Tree_Twig_05": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Twig_05.res"
+},
+"nature_SM_Tree_Vines_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Vines_01.res"
+},
+"nature_SM_Tree_Vines_02": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Vines_02.res"
+},
+"nature_SM_Tree_Vines_03": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Vines_03.res"
+},
+"nature_SM_Tree_Vines_04": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Vines_04.res"
+},
+"nature_SM_Tree_Willow_Large_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Willow_Large_01.res"
+},
+"nature_SM_Tree_Willow_Medium_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Willow_Medium_01.res"
+},
+"nature_SM_Tree_Willow_Small_01": {
+"generate/lightmap_uv": 0,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/path": "res://Assets/Meshes/nature_SM_Tree_Willow_Small_01.res"
+}
+}
+}
+gltf/naming_version=1
+gltf/embedded_image_handling=1

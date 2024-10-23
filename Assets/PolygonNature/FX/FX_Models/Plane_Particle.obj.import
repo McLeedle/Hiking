@@ -1,0 +1,56 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://87mpllovaegu"
+path="res://.godot/imported/Plane_Particle.obj-fac242fe426df6631ca42e8e5d33b162.scn"
+
+[deps]
+
+source_file="res://Assets/PolygonNature/FX/FX_Models/Plane_Particle.obj"
+dest_files=["res://.godot/imported/Plane_Particle.obj-fac242fe426df6631ca42e8e5d33b162.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name="Root Scene"
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+meshes/ensure_tangents=1
+meshes/generate_lods=true
+meshes/create_shadow_meshes=false
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=false
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=false
+animation/import_rest_as_RESET=false
+import_script/path=""
+_subresources={
+"animations": {},
+"materials": {},
+"meshes": {
+"Root Scene_pCube1": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/PolygonNature/FX/FX_Models/extracted/Plane_Particle.pCube1.mesh"
+},
+"pCube1": {
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": "",
+"save_to_file/path": "res://Assets/PolygonNature/FX/FX_Models/extracted/Plane_Particle.pCube1.mesh"
+}
+},
+"nodes": {
+"PATH:AnimationPlayer": {
+"optimizer/enabled": true,
+"optimizer/max_angular_error": 0.00277778,
+"optimizer/max_linear_error": 0.5
+}
+}
+}

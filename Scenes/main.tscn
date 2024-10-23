@@ -1,3 +1,51 @@
-[gd_scene format=3 uid="uid://dce1elob0n5tl"]
+[gd_scene load_steps=11 format=3 uid="uid://dce1elob0n5tl"]
+
+[ext_resource type="PackedScene" uid="uid://dgpvcjrn8qii2" path="res://Scenes/Player/PlayerController.tscn" id="1_wyrv4"]
+[ext_resource type="PackedScene" uid="uid://dut3gyo4e7qbo" path="res://Assets/Walking-simulator/Models/Pedestal.tscn" id="2_acy0p"]
+[ext_resource type="PackedScene" uid="uid://dmy5yvt0uuxnr" path="res://Assets/PolygonNature/Scenes/DemoScene_Classic_Trees.scn" id="2_dhlvx"]
+[ext_resource type="Shader" uid="uid://bqvnejfpruuir" path="res://Assets/PolygonNature/Shaders/water.tres" id="3_pudft"]
+[ext_resource type="Script" path="res://Scripts/PedestalInteraction.gd" id="3_tocir"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_nxok5"]
+sky_top_color = Color(0.319, 0.516286, 0.696289, 1)
+
+[sub_resource type="Sky" id="Sky_oqmxh"]
+sky_material = SubResource("ProceduralSkyMaterial_nxok5")
+
+[sub_resource type="Environment" id="Environment_tdr8j"]
+background_mode = 2
+sky = SubResource("Sky_oqmxh")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_6n0ym"]
+render_priority = 0
+shader = ExtResource("3_pudft")
+shader_parameter/ColorParameter = Color(0, 0.266667, 0.533333, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_ekj2o"]
+material = SubResource("ShaderMaterial_6n0ym")
+size = Vector2(10, 10)
+subdivide_width = 20
+subdivide_depth = 20
 
 [node name="Main" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_tdr8j")
+
+[node name="Player" parent="." instance=ExtResource("1_wyrv4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.44314, 0.825279, -5.39299)
+pad_look_sensitivity = 0.05
+
+[node name="RootNode3D" parent="." instance=ExtResource("2_dhlvx")]
+
+[node name="Pedestal" parent="." instance=ExtResource("2_acy0p")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.57109, 1.43145, -6.00312)
+script = ExtResource("3_tocir")
+interact_prompt = "Turn On"
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, -0.86, 0)
+mesh = SubResource("PlaneMesh_ekj2o")
+
+[editable path="Player"]
+[editable path="Pedestal"]
