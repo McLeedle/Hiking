@@ -18,6 +18,7 @@ var camera_look_input: Vector2
 
 @onready var camera: Camera3D = get_node("Camera3D")
 @onready var gravity: float = ProjectSettings.get_setting("physics/3d/default_gravity") * gravity_modifier
+@onready var game_over: CanvasLayer = get_node("GameOver")
 
 func _ready() -> void:
 	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
@@ -86,3 +87,10 @@ func _physics_process(delta: float) -> void:
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion:
 		camera_look_input = event.relative
+
+func _on_replay_button_pressed() -> void:
+	get_tree().change_scene_to_file("res://Scenes/demo.tscn")
+	game_over.visible = false
+
+func _on_quit_button_pressed() -> void:
+	get_tree().quit(0)

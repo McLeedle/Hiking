@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://dgpvcjrn8qii2"]
+[gd_scene load_steps=8 format=3 uid="uid://dgpvcjrn8qii2"]
 
 [ext_resource type="Script" path="res://Scripts/PlayerController.gd" id="1_2rujk"]
 [ext_resource type="Script" path="res://Scripts/InteractionController.gd" id="2_swr0v"]
@@ -11,6 +11,15 @@ height = 1.8
 font_size = 24
 outline_size = 5
 outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hpnvy"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_85yvd"]
+font_size = 75
+
+[sub_resource type="Theme" id="Theme_k7u0j"]
+default_font_size = 25
 
 [node name="Player" type="CharacterBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.34411, 0, 0)
@@ -43,3 +52,54 @@ grow_vertical = 2
 label_settings = SubResource("LabelSettings_nh8k1")
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="GameOver" type="CanvasLayer" parent="."]
+visible = false
+
+[node name="Panel" type="Panel" parent="GameOver"]
+offset_right = 1153.0
+offset_bottom = 648.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_hpnvy")
+
+[node name="Label" type="Label" parent="GameOver"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -343.5
+offset_top = -69.5
+offset_right = 343.5
+offset_bottom = 69.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Thanks for Playing!"
+label_settings = SubResource("LabelSettings_85yvd")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Buttons" type="VBoxContainer" parent="GameOver"]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -171.0
+offset_top = -187.0
+offset_right = 171.0
+grow_horizontal = 2
+grow_vertical = 0
+theme = SubResource("Theme_k7u0j")
+theme_override_constants/separation = 3
+alignment = 1
+
+[node name="Replay Button" type="Button" parent="GameOver/Buttons"]
+layout_mode = 2
+text = "Replay"
+
+[node name="Quit Button" type="Button" parent="GameOver/Buttons"]
+layout_mode = 2
+text = "Quit"
+
+[connection signal="pressed" from="GameOver/Buttons/Replay Button" to="." method="_on_replay_button_pressed"]
+[connection signal="pressed" from="GameOver/Buttons/Quit Button" to="." method="_on_quit_button_pressed"]
