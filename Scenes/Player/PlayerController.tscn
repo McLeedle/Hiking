@@ -57,8 +57,14 @@ vertical_alignment = 1
 visible = false
 
 [node name="Panel" type="Panel" parent="GameOver"]
-offset_right = 1153.0
-offset_bottom = 648.0
+custom_minimum_size = Vector2(6000, 6000)
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -960.0
+offset_right = 960.0
+offset_bottom = 1080.0
+grow_horizontal = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_hpnvy")
 
 [node name="Label" type="Label" parent="GameOver"]

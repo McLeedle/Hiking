@@ -1,4 +1,4 @@
-[gd_scene load_steps=50 format=3 uid="uid://dp523w5c182p2"]
+[gd_scene load_steps=51 format=3 uid="uid://dp523w5c182p2"]
 
 [ext_resource type="PackedScene" uid="uid://wft0646rxy5s" path="res://Assets/PolygonNature/Prefabs/Terrain/MountainSkybox.prefab.scn" id="1_alciq"]
 [ext_resource type="PackedScene" uid="uid://cd1fc4p83xtxa" path="res://Scenes/Systems/day_night_cycle.tscn" id="2_1pexy"]
@@ -82,7 +82,7 @@ _data = {
 "RESET": SubResource("Animation_naivu")
 }
 
-[sub_resource type="Resource" id="Resource_mql2u"]
+[sub_resource type="Resource" id="Resource_4r6dj"]
 script = ExtResource("8_xdb68")
 amount = 50
 enabled = true
@@ -91,7 +91,7 @@ custom_seed = 0
 restrict_height = true
 reference_frame = 1
 
-[sub_resource type="Resource" id="Resource_hh64l"]
+[sub_resource type="Resource" id="Resource_3g7f3"]
 script = ExtResource("9_hhui5")
 position = Vector3(0, -1, 0)
 rotation = Vector3(0, 360.002, 0)
@@ -102,7 +102,7 @@ custom_seed = 0
 restrict_height = false
 reference_frame = 2
 
-[sub_resource type="Resource" id="Resource_gcthe"]
+[sub_resource type="Resource" id="Resource_vapim"]
 script = ExtResource("10_jaqq2")
 iterations = 3
 offset_step = 0.2
@@ -114,7 +114,7 @@ custom_seed = 0
 restrict_height = true
 reference_frame = 0
 
-[sub_resource type="Resource" id="Resource_oh724"]
+[sub_resource type="Resource" id="Resource_apl57"]
 script = ExtResource("11_wrvn4")
 ray_direction = Vector3(0, -1, 0)
 ray_length = 5.0
@@ -130,15 +130,15 @@ custom_seed = 0
 restrict_height = false
 reference_frame = 0
 
-[sub_resource type="Resource" id="Resource_3gijc"]
+[sub_resource type="Resource" id="Resource_bnxse"]
 script = ExtResource("6_1isad")
-stack = Array[ExtResource("7_ji6v5")]([SubResource("Resource_mql2u"), SubResource("Resource_hh64l"), SubResource("Resource_gcthe"), SubResource("Resource_oh724")])
+stack = Array[ExtResource("7_ji6v5")]([SubResource("Resource_4r6dj"), SubResource("Resource_3g7f3"), SubResource("Resource_vapim"), SubResource("Resource_apl57")])
 
 [sub_resource type="Resource" id="Resource_qcltu"]
 script = ExtResource("16_43h8y")
 size = Vector3(20, 5, 20)
 
-[sub_resource type="Resource" id="Resource_5l5sj"]
+[sub_resource type="Resource" id="Resource_asucq"]
 script = ExtResource("8_xdb68")
 amount = 3000
 enabled = true
@@ -147,7 +147,7 @@ custom_seed = 0
 restrict_height = true
 reference_frame = 1
 
-[sub_resource type="Resource" id="Resource_6ok54"]
+[sub_resource type="Resource" id="Resource_1sxul"]
 script = ExtResource("9_hhui5")
 position = Vector3(0, 0, 0)
 rotation = Vector3(0, 0, 0)
@@ -158,9 +158,9 @@ custom_seed = 0
 restrict_height = false
 reference_frame = 2
 
-[sub_resource type="Resource" id="Resource_inr5q"]
+[sub_resource type="Resource" id="Resource_5perv"]
 script = ExtResource("6_1isad")
-stack = Array[ExtResource("7_ji6v5")]([SubResource("Resource_5l5sj"), SubResource("Resource_6ok54")])
+stack = Array[ExtResource("7_ji6v5")]([SubResource("Resource_asucq"), SubResource("Resource_1sxul")])
 
 [sub_resource type="Resource" id="Resource_4mc3u"]
 script = ExtResource("16_43h8y")
@@ -178,6 +178,9 @@ script = ExtResource("15_oxga8")
 closed = true
 thickness = 2.0
 curve = SubResource("Curve3D_6n34d")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_h5dsx"]
+size = Vector3(0.390137, 5.17749, 9.23462)
 
 [node name="Main" type="Node3D"]
 
@@ -258,7 +261,7 @@ interact_prompt = "Light Campfire"
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4.22176)
 script = ExtResource("5_n8iw4")
 render_mode = 1
-modifier_stack = SubResource("Resource_3gijc")
+modifier_stack = SubResource("Resource_bnxse")
 Performance/use_chunks = true
 Performance/chunk_dimensions = Vector3(15, 15, 15)
 
@@ -274,7 +277,7 @@ shape = SubResource("Resource_qcltu")
 [node name="ProtonScatter2" type="Node3D" parent="ProtonScatters"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.919, -0.3, 3.924)
 script = ExtResource("5_n8iw4")
-modifier_stack = SubResource("Resource_inr5q")
+modifier_stack = SubResource("Resource_5perv")
 Performance/use_chunks = true
 Performance/chunk_dimensions = Vector3(15, 15, 15)
 
@@ -314,5 +317,12 @@ transform = Transform3D(-0.660508, -0.355051, 0.461145, -0.667755, 0.446054, 3.4
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.8704, -1.39821, -24.9567)
 script = ExtResource("27_gtswx")
 interact_prompt = "Touch Skeleton"
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.0937, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.499702, 2.08875, 3.25256)
+shape = SubResource("BoxShape3D_h5dsx")
 
 [editable path="DayNightCycle"]
