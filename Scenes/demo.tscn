@@ -1,4 +1,4 @@
-[gd_scene load_steps=31 format=3 uid="uid://dp523w5c182p2"]
+[gd_scene load_steps=39 format=3 uid="uid://dp523w5c182p2"]
 
 [ext_resource type="PackedScene" uid="uid://wft0646rxy5s" path="res://Assets/PolygonNature/Prefabs/Terrain/MountainSkybox.prefab.scn" id="1_alciq"]
 [ext_resource type="PackedScene" uid="uid://cd1fc4p83xtxa" path="res://Scenes/Systems/day_night_cycle.tscn" id="2_1pexy"]
@@ -14,8 +14,10 @@
 [ext_resource type="Script" path="res://addons/proton_scatter/src/scatter_item.gd" id="12_scow5"]
 [ext_resource type="Script" path="res://addons/proton_scatter/src/scatter_shape.gd" id="13_lxdmm"]
 [ext_resource type="PackedScene" uid="uid://58jfgdl6dss6" path="res://Assets/PolygonNature/Prefabs/Props/SM_Prop_CampFire_01.prefab.scn" id="15_k7hm5"]
+[ext_resource type="Script" path="res://addons/proton_scatter/src/shapes/path_shape.gd" id="15_oxga8"]
 [ext_resource type="Script" path="res://addons/proton_scatter/src/shapes/box_shape.gd" id="16_43h8y"]
 [ext_resource type="Script" path="res://Scripts/Objects/CampfireInteraction.gd" id="16_albcl"]
+[ext_resource type="PackedScene" uid="uid://d0gg426mru30i" path="res://Assets/PolygonNature/Prefabs/Rocks/SM_Rock_Cluster_Large_06.prefab.scn" id="18_5wjfa"]
 
 [sub_resource type="Gradient" id="Gradient_qdttb"]
 offsets = PackedFloat32Array(0, 0.3, 0.7, 1)
@@ -44,19 +46,19 @@ colors = PackedColorArray(0.317647, 0.333333, 0.65098, 1, 0.87451, 0.521569, 0.4
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r7otc"]
 albedo_texture = ExtResource("3_6mo8c")
 
-[sub_resource type="Resource" id="Resource_cwj7o"]
+[sub_resource type="Resource" id="Resource_utgvu"]
 script = ExtResource("8_xdb68")
-amount = 120
+amount = 50
 enabled = true
 override_global_seed = false
 custom_seed = 0
 restrict_height = true
 reference_frame = 1
 
-[sub_resource type="Resource" id="Resource_76lpk"]
+[sub_resource type="Resource" id="Resource_kkpu5"]
 script = ExtResource("9_hhui5")
-position = Vector3(5, 2, 0)
-rotation = Vector3(0, 360, 0)
+position = Vector3(0, -1, 0)
+rotation = Vector3(0, 360.002, 0)
 scale = Vector3(0.1, 0.1, 0.1)
 enabled = true
 override_global_seed = false
@@ -64,7 +66,7 @@ custom_seed = 0
 restrict_height = false
 reference_frame = 2
 
-[sub_resource type="Resource" id="Resource_65bfj"]
+[sub_resource type="Resource" id="Resource_uugqe"]
 script = ExtResource("10_jaqq2")
 iterations = 3
 offset_step = 0.2
@@ -76,7 +78,7 @@ custom_seed = 0
 restrict_height = true
 reference_frame = 0
 
-[sub_resource type="Resource" id="Resource_raig8"]
+[sub_resource type="Resource" id="Resource_8lx83"]
 script = ExtResource("11_wrvn4")
 ray_direction = Vector3(0, -1, 0)
 ray_length = 5.0
@@ -92,13 +94,54 @@ custom_seed = 0
 restrict_height = false
 reference_frame = 0
 
-[sub_resource type="Resource" id="Resource_uawfy"]
+[sub_resource type="Resource" id="Resource_q6ad6"]
 script = ExtResource("6_1isad")
-stack = Array[ExtResource("7_ji6v5")]([SubResource("Resource_cwj7o"), SubResource("Resource_76lpk"), SubResource("Resource_65bfj"), SubResource("Resource_raig8")])
+stack = Array[ExtResource("7_ji6v5")]([SubResource("Resource_utgvu"), SubResource("Resource_kkpu5"), SubResource("Resource_uugqe"), SubResource("Resource_8lx83")])
 
 [sub_resource type="Resource" id="Resource_qcltu"]
 script = ExtResource("16_43h8y")
-size = Vector3(28.1068, 5, 36.9277)
+size = Vector3(20, 5, 20)
+
+[sub_resource type="Resource" id="Resource_gr5rr"]
+script = ExtResource("8_xdb68")
+amount = 3000
+enabled = true
+override_global_seed = false
+custom_seed = 0
+restrict_height = true
+reference_frame = 1
+
+[sub_resource type="Resource" id="Resource_0ol7d"]
+script = ExtResource("9_hhui5")
+position = Vector3(0, 0, 0)
+rotation = Vector3(0, 0, 0)
+scale = Vector3(0, 0, 0)
+enabled = false
+override_global_seed = false
+custom_seed = 0
+restrict_height = false
+reference_frame = 2
+
+[sub_resource type="Resource" id="Resource_dvk0b"]
+script = ExtResource("6_1isad")
+stack = Array[ExtResource("7_ji6v5")]([SubResource("Resource_gr5rr"), SubResource("Resource_0ol7d")])
+
+[sub_resource type="Resource" id="Resource_4mc3u"]
+script = ExtResource("16_43h8y")
+size = Vector3(30, 5, 40)
+
+[sub_resource type="Curve3D" id="Curve3D_6n34d"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -2.3106, 0, 1.75445, 0, 0, 0, 0, 0, 0, -3.06224, 0, 1.02282, 0, 0, 0, 0, 0, 0, -3.40769, 0, 3.2673, 0, 0, 0, 0, 0, 0, 0.715857, 3.99846, -3.39957, 0, 0, 0, 0, 0, 0, 0.786417, 4.1916, -3.3572),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0)
+}
+point_count = 5
+
+[sub_resource type="Resource" id="Resource_1kc6j"]
+script = ExtResource("15_oxga8")
+closed = true
+thickness = 2.0
+curve = SubResource("Curve3D_6n34d")
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_ikdla"]
 size = Vector3(60.2236, 8.73254, 1)
@@ -106,7 +149,7 @@ size = Vector3(60.2236, 8.73254, 1)
 [node name="Main" type="Node3D"]
 
 [node name="MountainSkybox" parent="." instance=ExtResource("1_alciq")]
-transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 70, 0)
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 60, 0)
 
 [node name="DayNightCycle" parent="." instance=ExtResource("2_1pexy")]
 day_length = 600.0
@@ -130,7 +173,7 @@ size = Vector3(18.4419, 0.200195, 2.31433)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4.22176)
 script = ExtResource("5_n8iw4")
 render_mode = 1
-modifier_stack = SubResource("Resource_uawfy")
+modifier_stack = SubResource("Resource_q6ad6")
 Performance/use_chunks = true
 Performance/chunk_dimensions = Vector3(15, 15, 15)
 
@@ -142,6 +185,28 @@ path = "res://Assets/PolygonNature/Prefabs/Trees/SM_Tree_01.prefab.scn"
 transform = Transform3D(1, 0, -2.98023e-08, 0, 1, 0, 2.98023e-08, 0, 1, 0, 0, 0)
 script = ExtResource("13_lxdmm")
 shape = SubResource("Resource_qcltu")
+
+[node name="ProtonScatter2" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.919, -0.3, 3.924)
+script = ExtResource("5_n8iw4")
+modifier_stack = SubResource("Resource_dvk0b")
+Performance/use_chunks = true
+Performance/chunk_dimensions = Vector3(15, 15, 15)
+
+[node name="ScatterItem" type="Node3D" parent="ProtonScatter2"]
+script = ExtResource("12_scow5")
+path = "res://Assets/PolygonNature/Prefabs/Plants/SM_Plant_Grass_05.prefab.scn"
+
+[node name="ScatterShape" type="Node3D" parent="ProtonScatter2"]
+transform = Transform3D(1, 0, -2.98023e-08, 0, 1, 0, 2.98023e-08, 0, 1, 0, 0, -3.41892)
+script = ExtResource("13_lxdmm")
+shape = SubResource("Resource_4mc3u")
+
+[node name="ScatterShape2" type="Node3D" parent="ProtonScatter2"]
+transform = Transform3D(1, 0, -2.98023e-08, 0, 1, 0, 2.98023e-08, 0, 1, 0, 0, 0)
+script = ExtResource("13_lxdmm")
+negative = true
+shape = SubResource("Resource_1kc6j")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -11.9592)
@@ -163,8 +228,29 @@ transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -15.69
 shape = SubResource("BoxShape3D_ikdla")
 
 [node name="StaticBody3D2" parent="." instance=ExtResource("15_k7hm5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.39951, -0.299805, 6.10556)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.2243, -0.299805, 5.65914)
 script = ExtResource("16_albcl")
 interact_prompt = "Light Campfire"
+
+[node name="SM_Rock_Cluster_Large_06" parent="." instance=ExtResource("18_5wjfa")]
+transform = Transform3D(0.504899, 0, -0.472234, 0, 1, 0, 0.350509, 0, 0.680241, -14.0754, -1.5163, -13.6749)
+
+[node name="SM_Rock_Cluster_Large_07" parent="." instance=ExtResource("18_5wjfa")]
+transform = Transform3D(0.60509, 0, 0.14539, 0, 1, 0, -0.107914, 0, 0.815227, -18.7627, -1.5163, 2.39575)
+
+[node name="SM_Rock_Cluster_Large_08" parent="." instance=ExtResource("18_5wjfa")]
+transform = Transform3D(0.482056, -0.257118, 0.46754, 0.0483102, 0.943922, 0.265549, -0.378242, -0.207127, 0.629781, -18.0502, -2.60012, 14.1638)
+
+[node name="SM_Rock_Cluster_Large_09" parent="." instance=ExtResource("18_5wjfa")]
+transform = Transform3D(-0.125073, 0.172131, 0.798136, 0.118275, 0.972255, -0.110143, -0.59004, 0.158403, -0.191263, 3.20858, -1.05279, 24.3796)
+
+[node name="SM_Rock_Cluster_Large_10" parent="." instance=ExtResource("18_5wjfa")]
+transform = Transform3D(0.594683, 0.172735, -0.152779, -0.115513, 0.979809, -0.0564987, 0.103864, 0.100686, 0.811912, 17.82, -1.05279, 12.8253)
+
+[node name="SM_Rock_Cluster_Large_11" parent="." instance=ExtResource("18_5wjfa")]
+transform = Transform3D(-0.501329, 0.40492, -0.342187, 0.213721, 0.913954, 0.173266, 0.284203, 0.0269772, -0.733908, 17.82, -1.05279, -9.32254)
+
+[node name="SM_Rock_Cluster_Large_12" parent="." instance=ExtResource("18_5wjfa")]
+transform = Transform3D(0.14129, -0.0889542, -0.802541, 0.496412, 0.573052, 0.115081, 0.333754, -0.814677, 0.168578, 4.53359, -1.05279, -16.3654)
 
 [editable path="DayNightCycle"]
