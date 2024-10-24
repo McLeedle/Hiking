@@ -1,9 +1,21 @@
-[gd_scene load_steps=15 format=3 uid="uid://dp523w5c182p2"]
+[gd_scene load_steps=31 format=3 uid="uid://dp523w5c182p2"]
 
 [ext_resource type="PackedScene" uid="uid://wft0646rxy5s" path="res://Assets/PolygonNature/Prefabs/Terrain/MountainSkybox.prefab.scn" id="1_alciq"]
 [ext_resource type="PackedScene" uid="uid://cd1fc4p83xtxa" path="res://Scenes/Systems/day_night_cycle.tscn" id="2_1pexy"]
 [ext_resource type="Texture2D" uid="uid://2uk832a0ggfe" path="res://Assets/PolygonNature/Textures/Ground_Textures/Grass.png" id="3_6mo8c"]
 [ext_resource type="PackedScene" uid="uid://dgpvcjrn8qii2" path="res://Scenes/Player/PlayerController.tscn" id="4_bs5lm"]
+[ext_resource type="Script" path="res://addons/proton_scatter/src/scatter.gd" id="5_n8iw4"]
+[ext_resource type="Script" path="res://addons/proton_scatter/src/stack/modifier_stack.gd" id="6_1isad"]
+[ext_resource type="Script" path="res://addons/proton_scatter/src/modifiers/base_modifier.gd" id="7_ji6v5"]
+[ext_resource type="Script" path="res://addons/proton_scatter/src/modifiers/create_inside_random.gd" id="8_xdb68"]
+[ext_resource type="Script" path="res://addons/proton_scatter/src/modifiers/randomize_transforms.gd" id="9_hhui5"]
+[ext_resource type="Script" path="res://addons/proton_scatter/src/modifiers/relax.gd" id="10_jaqq2"]
+[ext_resource type="Script" path="res://addons/proton_scatter/src/modifiers/project_on_geometry.gd" id="11_wrvn4"]
+[ext_resource type="Script" path="res://addons/proton_scatter/src/scatter_item.gd" id="12_scow5"]
+[ext_resource type="Script" path="res://addons/proton_scatter/src/scatter_shape.gd" id="13_lxdmm"]
+[ext_resource type="PackedScene" uid="uid://58jfgdl6dss6" path="res://Assets/PolygonNature/Prefabs/Props/SM_Prop_CampFire_01.prefab.scn" id="15_k7hm5"]
+[ext_resource type="Script" path="res://addons/proton_scatter/src/shapes/box_shape.gd" id="16_43h8y"]
+[ext_resource type="Script" path="res://Scripts/Objects/CampfireInteraction.gd" id="16_albcl"]
 
 [sub_resource type="Gradient" id="Gradient_qdttb"]
 offsets = PackedFloat32Array(0, 0.3, 0.7, 1)
@@ -29,20 +41,72 @@ colors = PackedColorArray(0.317647, 0.333333, 0.65098, 1, 0.184314, 0.87451, 0.8
 offsets = PackedFloat32Array(0.1, 0.284, 0.4, 0.6, 0.692, 1)
 colors = PackedColorArray(0.317647, 0.333333, 0.65098, 1, 0.87451, 0.521569, 0.407843, 1, 0.184314, 0.87451, 0.878431, 1, 0.184314, 0.87451, 0.878431, 1, 0.87451, 0.521569, 0.407843, 1, 0.317647, 0.333333, 0.65098, 1)
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pj13h"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r7otc"]
 albedo_texture = ExtResource("3_6mo8c")
 
-[sub_resource type="PlaneMesh" id="PlaneMesh_or2jm"]
+[sub_resource type="Resource" id="Resource_37q7j"]
+script = ExtResource("8_xdb68")
+amount = 120
+enabled = true
+override_global_seed = false
+custom_seed = 0
+restrict_height = true
+reference_frame = 1
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y7yxr"]
+[sub_resource type="Resource" id="Resource_qof21"]
+script = ExtResource("9_hhui5")
+position = Vector3(5, 2, 0)
+rotation = Vector3(0, 360, 0)
+scale = Vector3(0.1, 0.1, 0.1)
+enabled = true
+override_global_seed = false
+custom_seed = 0
+restrict_height = false
+reference_frame = 2
 
-[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_8060k"]
-data = PackedVector3Array(1, 0, 1, -1, 0, 1, 1, 0, -1, -1, 0, 1, -1, 0, -1, 1, 0, -1)
+[sub_resource type="Resource" id="Resource_h8s0m"]
+script = ExtResource("10_jaqq2")
+iterations = 3
+offset_step = 0.2
+consecutive_step_multiplier = 0.75
+use_computeshader = true
+enabled = true
+override_global_seed = false
+custom_seed = 0
+restrict_height = true
+reference_frame = 0
+
+[sub_resource type="Resource" id="Resource_fysyx"]
+script = ExtResource("11_wrvn4")
+ray_direction = Vector3(0, -1, 0)
+ray_length = 5.0
+ray_offset = 5.0
+remove_points_on_miss = false
+align_with_collision_normal = false
+max_slope = 90.0
+collision_mask = 1
+exclude_mask = 0
+enabled = true
+override_global_seed = false
+custom_seed = 0
+restrict_height = false
+reference_frame = 0
+
+[sub_resource type="Resource" id="Resource_n07dq"]
+script = ExtResource("6_1isad")
+stack = Array[ExtResource("7_ji6v5")]([SubResource("Resource_37q7j"), SubResource("Resource_qof21"), SubResource("Resource_h8s0m"), SubResource("Resource_fysyx")])
+
+[sub_resource type="Resource" id="Resource_qcltu"]
+script = ExtResource("16_43h8y")
+size = Vector3(28.1068, 5, 36.9277)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ikdla"]
+size = Vector3(60.2236, 8.73254, 1)
 
 [node name="Main" type="Node3D"]
 
 [node name="MountainSkybox" parent="." instance=ExtResource("1_alciq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 150, 0)
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 70, 0)
 
 [node name="DayNightCycle" parent="." instance=ExtResource("2_1pexy")]
 day_length = 600.0
@@ -53,19 +117,54 @@ moon_intensity = SubResource("Curve_0lsi6")
 sky_top_color = SubResource("Gradient_4i2jq")
 sky_horizon_color = SubResource("Gradient_dk74s")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="."]
+[node name="Player" parent="." instance=ExtResource("4_bs5lm")]
+transform = Transform3D(-0.773884, 0, 0.633327, 0, 1, 0, -0.633327, 0, -0.773884, -3.39047, -0.305334, -5.42248)
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
-transform = Transform3D(15, 0, 0, 0, 15, 0, 0, 0, 15, 0, 0, 0)
-material_override = SubResource("StandardMaterial3D_pj13h")
-mesh = SubResource("PlaneMesh_or2jm")
-surface_material_override/0 = SubResource("StandardMaterial3D_y7yxr")
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(2.08432, 0, 0, 0, 1, 0, 0, 0, 17.5887, -0.616943, -0.399902, 3.79146)
+material_override = SubResource("StandardMaterial3D_r7otc")
+use_collision = true
+size = Vector3(18.4419, 0.200195, 2.31433)
+
+[node name="ProtonScatter" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4.22176)
+script = ExtResource("5_n8iw4")
+render_mode = 1
+modifier_stack = SubResource("Resource_n07dq")
+Performance/use_chunks = true
+Performance/chunk_dimensions = Vector3(15, 15, 15)
+
+[node name="ScatterItem" type="Node3D" parent="ProtonScatter"]
+script = ExtResource("12_scow5")
+path = "res://Assets/PolygonNature/Prefabs/Trees/SM_Tree_01.prefab.scn"
+
+[node name="ScatterShape" type="Node3D" parent="ProtonScatter"]
+transform = Transform3D(1, 0, -2.98023e-08, 0, 1, 0, 2.98023e-08, 0, 1, 0, 0, 0)
+script = ExtResource("13_lxdmm")
+shape = SubResource("Resource_qcltu")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -11.9592)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
-transform = Transform3D(15, 0, 0, 0, 15, 0, 0, 0, 15, 0, 0, 0)
-shape = SubResource("ConcavePolygonShape3D_8060k")
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.380585, 3.86627, 0)
+shape = SubResource("BoxShape3D_ikdla")
 
-[node name="Player" parent="StaticBody3D" instance=ExtResource("4_bs5lm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.713061, 0, -5.00465)
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.380585, 3.86627, 31.0091)
+shape = SubResource("BoxShape3D_ikdla")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 15.1453, 3.86627, 15.0198)
+shape = SubResource("BoxShape3D_ikdla")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -15.6954, 3.86627, 15.0198)
+shape = SubResource("BoxShape3D_ikdla")
+
+[node name="StaticBody3D2" parent="." instance=ExtResource("15_k7hm5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.39951, -0.299805, 6.10556)
+script = ExtResource("16_albcl")
+interact_prompt = "Light Campfire"
 
 [editable path="DayNightCycle"]

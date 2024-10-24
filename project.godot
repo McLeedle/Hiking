@@ -15,10 +15,6 @@ run/main_scene="res://Scenes/demo.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 
-[display]
-
-window/size/mode=3
-
 [editor]
 
 version_control/plugin_name="GitPlugin"
@@ -26,7 +22,7 @@ version_control/autoload_on_startup=true
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/unidot_importer-1.0.0/plugin.cfg")
+enabled=PackedStringArray("res://addons/proton_scatter/plugin.cfg", "res://addons/unidot_importer-1.0.0/plugin.cfg")
 
 [input]
 
